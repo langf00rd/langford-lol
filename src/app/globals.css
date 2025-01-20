@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .prose p {
+    @apply text-gray-300 text-[20px];
+} */
+
+* > p,
+* > dd,
+* > dt {
+    @apply text-gray-500 leading-[1.7];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply text-gray-700 font-semibold tracking-tight;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+.prose b {
+    @apply text-black leading-10;
+}
+
+.prose p {
+    @apply text-[18px];
+}
